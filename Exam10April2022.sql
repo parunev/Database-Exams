@@ -162,7 +162,7 @@ BEGIN
      RETURN history_movies;
      END;
      
-     -- 11. Movie awards
+-- 11. Movie awards
 
 CREATE PROCEDURE udp_award_movie(movie_title VARCHAR(50))
 BEGIN
